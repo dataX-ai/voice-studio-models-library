@@ -13,7 +13,7 @@ on:
 env:
   DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
   DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
-  DOCKER_REPOSITORY: ${{ secrets.DOCKER_HUB_USERNAME }}/voice-studio-models
+  DOCKER_REPOSITORY: ${{ secrets.DOCKER_HUB_USERNAME }}/model-library
 
 jobs:
   build-and-push:
