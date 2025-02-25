@@ -1,0 +1,63 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Python files
+*.py text diff=python
+*.pyw text diff=python
+
+# Shell scripts should use LF
+*.sh text eol=lf
+
+# Windows batch files should use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Docker files should use LF
+Dockerfile text eol=lf
+*.dockerfile text eol=lf
+
+# Config files
+*.ini text
+*.yml text
+*.yaml text
+*.json text
+*.toml text
+*.config text
+requirements.txt text
+
+# Documentation
+*.md text diff=markdown
+*.txt text
+LICENSE text
+
+# Git files
+.gitattributes text
+.gitignore text
+.gitconfig text
+
+# Web related
+*.html text diff=html
+*.css text diff=css
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+
+# Binary files (no line-ending conversion)
+*.db binary
+*.p binary
+*.pkl binary
+*.pickle binary
+*.pyc binary
+*.pyd binary
+*.pyo binary
+*.pth binary
+*.so binary
+*.wav binary
+*.mp3 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary 

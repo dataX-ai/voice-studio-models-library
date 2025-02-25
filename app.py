@@ -38,7 +38,6 @@ model_handler = ModelHandler()
 DatabaseManager()
 
 models_dao = ModelsDAO()
-models_dao.clear_model_states(['kokoro-82M'])
 tts_thread_pool = ThreadPoolExecutor(max_workers=max(2, multiprocessing.cpu_count() // 2))
 model_services = ModelServices()
 
